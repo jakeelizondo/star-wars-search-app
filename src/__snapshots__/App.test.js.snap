@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders the UI as expected 1`] = `
+<main
+  className="App"
+>
+  <header>
+    <h1>
+      Search the Star Wars API!
+    </h1>
+  </header>
+  <section
+    className="main-window"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <h2>
+        Search the API
+      </h2>
+      <div>
+        <label
+          htmlFor="category"
+        >
+          Search for: 
+        </label>
+        <select
+          id="categories"
+          onChange={[Function]}
+        >
+          <option
+            value="none"
+          >
+            Select a category...
+          </option>
+          <option>
+            films
+          </option>
+          <option>
+            people
+          </option>
+          <option>
+            planets
+          </option>
+          <option>
+            species
+          </option>
+          <option>
+            starships
+          </option>
+          <option>
+            vehicles
+          </option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label
+          htmlFor="search"
+        >
+          that include the term: 
+        </label>
+        <input
+          id="search"
+          onChange={[Function]}
+          type="text"
+        />
+        <button
+          disabled={true}
+          type="submit"
+        >
+          Search
+        </button>
+      </div>
+    </form>
+    <div>
+      <ul />
+    </div>
+    <p>
+      Search something
+    </p>
+  </section>
+</main>
+`;

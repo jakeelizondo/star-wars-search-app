@@ -1,38 +1,50 @@
-.App {
+body {
+  background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+label {
+  color: #eedb00;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.results-header {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label,
+input,
+select,
+button,
+p {
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  margin-left: 10px;
 }
